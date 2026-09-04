@@ -1,0 +1,23 @@
+{
+  "name": "Projeto-Estrutural-NiDaN-PiscinaS",
+  "description": "Plataforma educacional para construção de piscinas com certificações, MCP e banco de dados",
+  "version": "1.0.0",
+  "private": false,
+  "author": "Lucas Dez (DezNidanpiscinas)",
+  "license": "MIT",
+  "keywords": ["piscinas", "educacao", "mcp", "postgresql"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DezNidanpiscinas/Projeto-Estrutural-NiDaN-PiscinaS.git"
+  },
+  "scripts": {
+    "test": "cd testes && ./run_all_tests.sh",
+    "mcp:start": "cd mcp && npm install && npm start",
+    "mcp:test": "cd mcp && npm install && npm test"
+  },
+  "directories": {
+    "doc": "./",
+    "test": "./testes",
+    "bin": "./comandos"
+  }
+}
